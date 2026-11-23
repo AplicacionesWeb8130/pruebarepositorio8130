@@ -1,0 +1,11 @@
+@PC28130.U20005.Kellanova.Platform_HostAddress = http://localhost:5161
+
+GET {{PC28130.U20005.Kellanova.Platform_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{PC28130.U20005.Kellanova.Platform_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
